@@ -23,3 +23,11 @@ go.work.sum
 
 # env file
 .env
+
+
+# Hugo build
+.hugo_build.lock
+quickstart/public/
+
+# emacs
+*.elc
