@@ -15,7 +15,7 @@ This is my post body
 
 This isn't my body. This is your body.
 * DONE Second post                                          :tag1:@category1:
-CLOSED: [2025-02-04 Tue 13:11] SCHEDULED: <2025-02-05 Wed>
+CLOSED: [2025-02-04 Tue 16:37]
 :PROPERTIES:
 :EXPORT_FILE_NAME: second-post
 :END:
@@ -24,3 +24,6 @@ This is the second thing that I have written. It's not much, but it's honest.
 #+hugo: more
 
 Why do I suddenly not know what to put in the website?
+Let's see what else there is to do. Then let's try building a page for personal bests, remaking a training document, or adding a schedule.
+
+Where are the paragraphs?
