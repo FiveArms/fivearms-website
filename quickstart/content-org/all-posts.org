@@ -3,6 +3,7 @@
 #+hugo_base_dir: ../
 #+hugo_auto_set_lastmod: t
 #+STARTUP: logdone
+#+cite_export: csl
 
 * DONE My first post                                        :tag1:@category1:
 CLOSED: [2025-02-04 Tue 13:10] SCHEDULED: <2025-02-04 Tue>
@@ -28,7 +29,17 @@ Let's see what else there is to do. Then let's try building a page for personal 
 
 Where are the paragraphs?
 
-* TODO Rocket League Personal Bests
+* TODO Third post                                             :@rocketleague:
+:PROPERTIES:
+:EXPORT_FILE_NAME: third-post
+:END:
+Just trying out more with ox-hugo. Automatic building and such.
+#+hugo: more
+
+Next steps are probably working with citations and rebuilding a training document, or checking out statical to help with making a calendar thing.
+
+* DONE Rocket League Personal Bests :@rocketleague:custommaps:workshopmaps:pbs:
+CLOSED: [2025-02-09 Sun 10:34]
 :PROPERTIES:
 :EXPORT_FILE_NAME: rocket-league-personal-bests
 :END:
@@ -154,3 +165,894 @@ Stuck with Dacia and made it all the way to the very end of the very last level!
 + Twitch Link :: https://www.twitch.tv/videos/1670773058
 
 Finally beat all levels! Now we just need to get a more reasonable time.
+* TODO FiveArms Training
+:PROPERTIES:
+:EXPORT_FILE_NAME:  fivearms-training
+:END:
+I want to improve in Rocket League, and given my current skills, rank, available time, and desire to rank up, I think I should focus on just a few mechanics at a time. I am currently focusing on:
+- Directional Air Roll
+- Aerial Shot Power
+- Backboard Doubles
+
+This document is intended to be a resource open to anyone looking to improve in Rocket League, but is guided by my personal understanding, training, and goals. I hope this record of my own quest for self-betterment can offer something useful to you in your own journey.
+
+""May the boost be with you." ~ Yoda, probably" ~ FiveArms (2021)
+
+#+hugo: more
+** Getting up and running in RL
+So you want to start playing Rocket League? Start with these exercises, and you'll be well on your way!
+*** IDEA Rocket League Mechanics Tutorial
+- musty sidewall
+- vaporwave/speedflip
+- salteroo air dribble
+- craig's microwave wall to air
+- so on
+** Citation Attempts
+hello there, Kenobi
+Workshop? [cite:@OrgCitations]
+[cite:@noobdribble19]
+
+Go to [[https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064][Noob Dribble]] [cite:@noobdribble19]
+** FiveArms Training
+:PROPERTIES:
+:CUSTOM_ID: fivearms-training
+:END:
+I want to improve in Rocket League, and given my current skills, rank,
+available time, and desire to rank up, I think I should focus on just a
+few mechanics at a time. I am currently focusing on: -
+[[#flicks][Flicks]] - [[#speedflip][Speedflipping]] -
+[[#directional-air-roll][Directional Air Roll]]
+
+This document is intended to be a resource open to anyone looking to
+improve in Rocket League, but is guided by my personal understanding,
+training, and goals. I hope this record of my own quest for
+self-betterment can offer something useful to you in your own journey.
+
+“"May the boost be with you." ~ Yoda, probably” ~ FiveArms (2021)
+
+--------------
+
+** Table of Contents
+:PROPERTIES:
+:CUSTOM_ID: table-of-contents
+:END:
+- [[#mechanics][Mechanics]]
+  - [[#dribbling][Dribbling]]
+  - [[#flicks][Flicks]]
+  - [[#wavedash][Wavedash]]
+    - [[#curvedash][Curvedash]]
+    - [[#landing-wavedash][Landing Wavedash]]
+  - [[#speedflip][Speedflip]]
+  - [[#walldash][Walldash]]
+  - [[#aerials][Aerials]]
+    - [[#fast-aerials][Fast Aerials]]
+    - [[#aerial-control][Aerial Control]]
+    - [[#directional-air-roll][Directional Air Roll]]
+- [[#strategy][Strategy]]
+- [[#miscellaneous-tips][Miscellaneous Tips]]
+- [[#settings][Settings]]
+- [[#references][People and Works Referenced]]
+
+--------------
+
+** Mechanics
+:PROPERTIES:
+:CUSTOM_ID: mechanics
+:END:
+*** Dribbling
+:PROPERTIES:
+:CUSTOM_ID: dribbling
+:END:
+Dribbling is the epitome of ball control. If you go into freeplay and
+try to hit the ball and then make a second hit as quickly as possible,
+after a while you start trying to /constantly/ hit the ball. That's
+basically dribbling. Always touching/hitting the ball.
+
+This level of ball control is required for many other mechanics like
+[[#flicks][flicking]] and air-dribbling. The earlier you can start
+dribbling, the better.
+
+**** Dribbling Resources
+:PROPERTIES:
+:CUSTOM_ID: dribbling-resources
+:END:
+***** Training Packs
+:PROPERTIES:
+:CUSTOM_ID: training-packs
+:END:
+- 04C1-42C8-6E5D-6F75 (suggested by
+  [[https://www.youtube.com/channel/UCWDuIMQM0wF-WHJINS8vwRA][Virge]])
+- 6F35-CE3B-ABCB-FE13 (suggested by
+  [[https://www.youtube.com/channel/UCeg2dFpnarFPI14hbN_5rKg][Wayton]]
+  Pilkin)
+- 9D87-258C-3C05-6FA9 (suggested by
+  [[https://www.youtube.com/channel/UCd1A9A5JGDtLxCrc59yHncg][Thanovic]])
+- 9E8D-D9BC-E12E-7C1A (suggested by
+  [[https://www.youtube.com/channel/UCd1A9A5JGDtLxCrc59yHncg][Thanovic]])
+
+***** Workshop Maps
+:PROPERTIES:
+:CUSTOM_ID: workshop-maps
+:END:
+- [[https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064]["Noob
+  Dribble"]] by
+  [[https://steamcommunity.com/id/dmc8217/myworkshopfiles/?appid=252950][dmc]]
+- [[https://steamcommunity.com/sharedfiles/filedetails/?id=964271505]["Dribbling
+  Challenge #2"]] by
+  [[https://steamcommunity.com/id/futcha/myworkshopfiles/?appid=252950][French
+  Fries]]
+- [[https://steamcommunity.com/sharedfiles/filedetails/?id=1694288506]["Dribble
+  2 Overhaul"]] by
+  [[https://steamcommunity.com/id/0xDigby/myworkshopfiles/?appid=252950][0xDigby]]
+
+***** YouTube Videos
+:PROPERTIES:
+:CUSTOM_ID: youtube-videos
+:END:
+- [[https://www.youtube.com/watch?v=sLOxr4V-_r0][Rocket Science
+  dribbling physics]]
+- [[https://www.youtube.com/watch?v=U5VXmGx9ou0&t=232s][SunlessKhan ball
+  control]]
+- [[https://www.youtube.com/watch?v=Il7nZS3hKmA][SquishyMuffinz
+  dribbling tutorial]]
+- [[https://www.youtube.com/watch?v=R7BjjxUf4J4][Virge dribbling
+  tutorial]]
+- [[https://www.youtube.com/watch?v=576yfVb3MUM][Wayton dribbling for
+  beginners]]
+- [[https://www.youtube.com/watch?v=C_w4M4twl2E&t=105][Thanovic
+  dribbling all skill levels]]
+
+*** Flicks
+:PROPERTIES:
+:CUSTOM_ID: flicks
+:END:
+Flicks allow a player to quickly transfer a lot of momentum to the ball
+from their car. This is accomplished by getting multiple touches on the
+ball, rotating the car, and taking advantage of the dodge/flip mechanic
+to add momentum directly.
+
+- Directional Flicks
+  - Front-flip flick
+  - Side-flip flick
+  - Back-flip flick
+- Angled Flicks
+  - 45 Degree flick
+    - (see
+      [[http://team-dignitas.net/articles/blogs/rocket-league/12789/how-to-master-the-45-degree-flick][article
+      in resources below]])
+    - (see Kingpin's
+      [[https://www.youtube.com/watch?v=Gt4wTng5k4s][tutorial on 45
+      degree flicks]])
+  - 90 Degree flick
+- Named Flicks
+  - Farms Flick
+  - [[https://www.youtube.com/channel/UC1GFqqHIBaiCW1ivJJCFTvg][Musty]]
+    Flick
+  - Breezi Flick
+
+**** Flicks Resources
+:PROPERTIES:
+:CUSTOM_ID: flicks-resources
+:END:
+***** Articles
+:PROPERTIES:
+:CUSTOM_ID: articles
+:END:
+- [[http://team-dignitas.net/articles/blogs/rocket-league/12789/how-to-master-the-45-degree-flick][/How
+  to Master the 45-Degree Flick/ by RedRL]]
+
+***** YouTube Videos
+:PROPERTIES:
+:CUSTOM_ID: youtube-videos-1
+:END:
+- [[https://www.youtube.com/watch?t=830&v=DRO8-784eSk][Rocket Science
+  Flick Explanation]]
+- [[https://www.youtube.com/watch?v=c9-ISPmsOF4&t=107s][Thanovic flick
+  tutorial]]
+- [[https://www.youtube.com/watch?v=KWZKfzVvSJQ][Virge (and KingRanny)
+  flick tutorial]]
+- [[https://www.youtube.com/watch?v=ZWdheraunb4][Wayton flick tutorial]]
+- [[https://www.youtube.com/watch?v=Il7nZS3hKmA&t=90][SquishyMuffinz
+  flicking tutorial]]
+- [[https://www.youtube.com/watch?v=Gt4wTng5k4s][Kingpin 45 degree flick
+  tutorial]]
+
+*** Wavedash
+:PROPERTIES:
+:CUSTOM_ID: wavedash
+:END:
+Wavedash is a term borrowed from the Super Smash Brothers Melee fighting
+game, and refers (in Rocket League) to a mechanic that helps a player
+gain momentum. By combining the effect of increased player momentum from
+a dodge/flip with running the car into the ground, one can quickly gain
+speed. See
+[[https://www.youtube.com/channel/UCfKidiMlHTBRNkQZlLzUesw][Rocket
+Science]]'s video on
+[[https://www.youtube.com/watch?v=pX950bhGhJE][dodge momentum]] for
+reference.
+
+The simplest explanation: give a dodge input (direction and jump) when
+only two of the four car wheels are touching the ground. The car will
+immediately gain momentum from having "dodged." The car will also
+attempt to rotate, but because the ground is in the way, it will only
+slam the car flat to the ground and allow the player to keep their new
+momentum.
+
+**** Curvedash
+:PROPERTIES:
+:CUSTOM_ID: curvedash
+:END:
+Wavedashing without boost, while making use of any curved surface to
+shorten the airborne duration of the dash. Explained concisely and
+precisely by
+[[https://www.youtube.com/channel/UCfKidiMlHTBRNkQZlLzUesw][Rocket
+Science]] in his video on the subject:
+[[https://www.youtube.com/watch?v=PuB6yLVSs5s][Curvedashing New
+mechanic? Instant supersonic with no boost]]
+
+**** Landing Wavedash
+:PROPERTIES:
+:CUSTOM_ID: landing-wavedash
+:END:
+The general idea is that you land with your front wheels first, and
+execute a wavedash as soon as the rear wheels touch down. Due to the
+car's suspension, your jump should leave the back wheels on the ground,
+making the wavedash nearly instantaneous.
+
+Please see the
+[[https://www.youtube.com/channel/UCfKidiMlHTBRNkQZlLzUesw][Rocket
+Science]] video on the subject:
+[[https://www.youtube.com/watch?v=baNsqFEfRMY][Landing Wavedash when you
+don't have a dodge]]
+
+My tips: - keep your car in your peripheral vision like you would
+wavedashing in a game; you're better at knowing the timing than you
+think! - hold forward (pitch forward) as you land, and make your two
+jump presses as close together as possible (wheelie press, dash press);
+N.B. pitching forward pulls the rear wheels up and requires delaying the
+wheelie press - experiment with having forward momentum or not; I think
+holding accelerate the whole time helps
+
+**** Wavedash Resources
+:PROPERTIES:
+:CUSTOM_ID: wavedash-resources
+:END:
+***** YouTube Videos
+:PROPERTIES:
+:CUSTOM_ID: youtube-videos-2
+:END:
+- [[https://www.youtube.com/watch?v=dywxcjl7B9E&t=118][SquishyMuffinz
+  recovery tips - wavedash]]
+
+*** Speedflip
+:PROPERTIES:
+:CUSTOM_ID: speedflip
+:END:
+Rocket League is easier when you are faster than your opponents. Dodging
+(flipping) is one of the easiest and most common ways to increase your
+car's speed. If every flip you do is the fastest possible flip, then you
+will be at an advantage.
+
+Because diagonal flips are the best way to increase your forward
+momentum (see [[#dodge-momentum-explanation][dodge momentum resource]]),
+we want to use them but cancel their forward-pitch rotation (see
+[[#youtube-tutorials][speedflip tutorials]]). This combined with
+precise timing and recovery should allow us to quickly increase our
+car's forward momentum faster than any other mechanic.
+
+My best summary of how to speedflip (once you understand the mechanic
+generally) is: flip-cancel as /early/ as possible, and recover as /late/
+as possible. Cancel the dodge *immediately*, then wait as long as you
+can to flip the stick again for your recovery.
+
+**** Speedflip Resources
+:PROPERTIES:
+:CUSTOM_ID: speedflip-resources
+:END:
+***** Dodge Momentum Explanation
+:PROPERTIES:
+:CUSTOM_ID: dodge-momentum-explanation
+:END:
+- [[https://www.youtube.com/watch?v=pX950bhGhJE][Rocket Science dodge
+  momentum]]
+
+***** YouTube Tutorials
+:PROPERTIES:
+:CUSTOM_ID: youtube-tutorials
+:END:
+- [[https://www.youtube.com/watch?v=Fnw0QwwIlEQ][Awsome Gaming speedflip
+  mistake corrections]]
+- [[https://www.youtube.com/watch?v=4iKouXvdh8I][Thanovic speedflip
+  tutorial]]
+- [[https://www.youtube.com/watch?v=TozvB7XpPY0][Linkuru speedflip
+  tutorial]]
+- [[https://www.youtube.com/watch?v=5aCasHy0Idg][Musty speedflip
+  (kickoff) tutorial]]
+- [[https://www.youtube.com/watch?v=X5VL6ih7ee0][Helical speedflip
+  tutorial]]
+- [[https://www.youtube.com/watch?v=h2Eg-4XwIic&t=40][Fireburner
+  speedflip tutorial]]
+
+***** Training Packs
+:PROPERTIES:
+:CUSTOM_ID: training-packs-1
+:END:
+- A503-264C-A7EB-D282
+  /[[https://www.youtube.com/channel/UC1GFqqHIBaiCW1ivJJCFTvg][Musty]] -
+  SpeedFlip Kickoff Test/
+- BFAA-45A5-7A56-73CC Fast Kickoff
+  ([[https://www.reddit.com/r/RocketLeague/comments/5jrvim/fast_kickoff_training_sequence/][VaporGB]])
+
+*** Walldash
+:PROPERTIES:
+:CUSTOM_ID: walldash
+:END:
+**** A Caveat
+:PROPERTIES:
+:CUSTOM_ID: a-caveat
+:END:
+Dashing on the wall requires sticking to the wall after a dodge executed
+from low height (off the wall). IIRC, the fake, sticky force that glues
+cars to non-ground surfaces is increased with car speed. This means that
+walldashing is /easiest at top speed/ and gets harder the slower your
+car is when you start. (See
+[[https://youtu.be/gDfm4zPwVZw?si=MX-jslexkCbUccEz&t=472][Kevpert's
+video]] for more here.) Again, being sub-sonic makes walldashing harder.
+(I think Kevpert even suggests needing to be about 70 or 80% max speed.)
+
+**** What is a Walldash?
+:PROPERTIES:
+:CUSTOM_ID: what-is-a-walldash
+:END:
+A walldash is executed by a car when it drives along a wall, jumps,
+immediately dodges up the wall (toward the ceiling), and lands
+(sticking) to the wall it had just jumped from.
+
+***** Why can't we just do the definition?
+:PROPERTIES:
+:CUSTOM_ID: why-cant-we-just-do-the-definition
+:END:
+There are two problems with a naïve attempt at a walldash.
+
+1. A side-dodge gives a momentum boost in the direction of the
+   side-dodge. If the car dodges perfectly "up" (toward the ceiling)
+   when driving parallel to the ground, the car does *not* gain forward
+   momentum. To gain momentum in the driving direction, the dodge must
+   have a forward component (i.e. must be a diagonal dodge). Dodging up
+   (even diagonally) will start turning the car up the wall. This can be
+   countered by pointing the nose of the car "down" (toward the ground)
+   before executing the dodge "up." (n.b. This is the same technique
+   used for speed-flipping in a straight line. This means that there can
+   be some variance in how players achieve this effect. The difference
+   in turning before or after jumping will be the speed with which the
+   nose of the car actually changes direction. On the wall, the car's
+   turning speed will be the determining factor. In the air, the car's
+   rotational acceleration around the z-axis will be the determining
+   factor.)
+
+**** How to Walldash
+:PROPERTIES:
+:CUSTOM_ID: how-to-walldash
+:END:
+There are three steps to a walldash that, when executed precisely, can
+be chained into consecutive walldashes (chain-dashing). The following
+list includes step one as a prerequisite - steps two, three, and four
+form the "chainable" walldash.
+
+1. Drive near top-speed along a wall (parallel to the ground).
+2. Turn the nose of the car down (toward the ground) slightly.
+3. Jump (neutral-jump) off the wall.
+4. Immediately, diagonally-dodge up-forward (toward the ceiling and
+   driving direction).
+
+**** Extra Considerations
+:PROPERTIES:
+:CUSTOM_ID: extra-considerations
+:END:
+***** Deadzones
+:PROPERTIES:
+:CUSTOM_ID: deadzones
+:END:
+You have access to two settings in RL that change how controller input
+is read and interpreted. These are the "controller deadzone" and the
+"dodge deadzone" (hereafter CDZ and DDZ respectively).
+
+First, understand that your controller is /always/ giving analog-stick
+(joystick) input to the game whether you are touching the controller or
+not. The stick measures two values at all times: radial deflection and
+angular deflection. In other words: how far from center the stick is
+pushed (radial deflection), and at what angle the stick is pushed
+(angular deflection). These two values are measured and sent to your
+computer at the "polling rate" of the controller. For our purposes this
+means "constantly," but in actuality it happens between 200--1200 times
+a second depending on your settings and controller.
+
+****** Controller Deadzone
+:PROPERTIES:
+:CUSTOM_ID: controller-deadzone
+:END:
+Because the controller is always telling the game where its stick is and
+the controller isn't a perfect device, there will almost always be some
+non-zero value being registered and sent to the game. This is why the
+CDZ exists. By making the CDZ just larger than the "I'm not touching the
+stick, but it's reading a non-zero value," the game can /ignore/ that
+input and treat it as zero. Use [[https://www.gamepad-tester.com][a
+testing software]] to see your controller's highest radial deflection
+after moving and releasing the stick. Set your CDZ in Rocket League to
+the closest but higher value. For example: after flicking the stick then
+reading the "at rest" value a few times, you see your controller reads
+0.045, 0.067, 0.059, etc. You then set your CDZ in RL to 0.07 (as close
+to your highest reading as you can get while still being greater).
+
+****** Dodge Deadzone
+:PROPERTIES:
+:CUSTOM_ID: dodge-deadzone
+:END:
+In order for a player's second jump input to be a dodge (instead of a
+neutral-jump), the game must register a coincident, radial stick
+deflection. In other words: to dodge, you must push the stick in (any)
+direction some minimum amount. How much? To a value greater than your
+dodge deadzone. For walldashing, the smaller the DDZ, the less stick
+movement required for dodging, and therefore the faster one can give
+dodge input. (n.b. Making the DDZ lower than the CDZ means all second
+jumps are dodges.) Set your DDZ as low as you can without accidentally
+getting dodge inputs in game (if you start accidentally backflipping all
+the time, you need a bigger DDZ). I use a value near 0.70, but this is
+different for everyone.
+
+****** How does this relate to walldashing?
+:PROPERTIES:
+:CUSTOM_ID: how-does-this-relate-to-walldashing
+:END:
+Use [[https://halfwaydead.gitlab.io/rl-deadzone/][HalfwayDead's tool to
+visualize your deadzones]]. In the graph on the right, you can see your
+dodge input with diagonal dodge input registering only when the stick is
+in the green sections of the circle. Notice that changing the DDZ
+doesn't change the angular area of the diagonal dodge sections at all.
+Notice that making the CDZ bigger reduces the angular area of the
+diagonal dodge sections, and making it /smaller/ will /increase/ the
+available angles for getting a diagonal dodge. (n.b. Also notice that a
+smaller CDZ makes it easier to turn or harder to drive straight.)
+
+***** Hitboxes
+:PROPERTIES:
+:CUSTOM_ID: hitboxes
+:END:
+I can't confirm anything here, but given that each car has a unique
+wheel placement relative to their hitbox, some cars may bonk and not
+stick more than others. Similarly, because each hitbox preset has a
+unique turning radius (see
+[[http://cars.rocketscience.fyi/][HalfwayDead's spreadsheet]]), the
+amount of turning needed to correct the dodge on the wall may be
+slightly different for each hitbox preset.
+
+*** Aerials
+:PROPERTIES:
+:CUSTOM_ID: aerials
+:END:
+- [[https://www.youtube.com/watch?t=141&v=d_7VLNiHgY8][Thanovic aerial
+  car control]]
+
+**** Fast Aerials
+:PROPERTIES:
+:CUSTOM_ID: fast-aerials
+:END:
+Fast aerialing refers to moving your car from the ground up to some
+height in the fastest possible way. Constantly boosting while getting
+maximum "up-force" from your jumps will be the tools used to fight
+gravity. Practice, timing, and coordination will let you go up faster.
+
+While boosting: press and hold jump for 0.2 seconds, and pitch up by
+pulling back on your left stick. Continue boosting, but let your stick
+return to a neutral position. Keep boosting, input another full jump,
+then pitch up some more with your stick. All together: hold boost, jump,
+tilt, jump, tilt (aim).
+
+You want to hold your first jump for 0.2 seconds. You can practice with
+a metronome set to 250bpm. See
+[[https://www.youtube.com/channel/UCfKidiMlHTBRNkQZlLzUesw][Rocket
+Science]]'s video for explanation: https://youtu.be/Y9o8ZPEwwK8?t=687
+
+**** Aerial Control
+:PROPERTIES:
+:CUSTOM_ID: aerial-control
+:END:
+Controlling your car in the air is the first step to using the air to
+your advantage. See Kingpin's video's for introductions:
+
+- https://www.youtube.com/watch?v=VxRgoqwnW6Y Simplified
+- https://www.youtube.com/watch?v=XimS3RBAVlQ Using pillars
+
+Try using Dreale's workshop map for a built-in training experience:
+https://steamcommunity.com/sharedfiles/filedetails/?id=1816559771
+
+**** Directional Air Roll
+:PROPERTIES:
+:CUSTOM_ID: directional-air-roll
+:END:
+First, we must establish a common vocabulary. When the car is in the
+air, it can rotate around three axes just like a plane (see
+[[https://en.wikipedia.org/wiki/Aircraft_principal_axes][principle axes
+resource]]) and these three rotations are controlled by the left analog
+stick. Up/down on the stick gives pitch control, left/right gives yaw
+control, and if the "air roll" button is held then left/right instead
+gives roll control. Since left/right analog stick movement corresponds
+to both roll and yaw control, it is impossible to give both inputs
+simultaneously without binding additional control buttons. The "air roll
+left" and "air roll right" bindings provide a button that gives their
+named inputs and free up the left/right stick to give simultaneous yaw
+control.
+
+- stick =up/down= gives =+/-= pitch (up/down)
+- stick =left/right= gives =-/+= yaw (left/right)
+- "air roll" and stick =left/right= gives =-/+= roll (left/right)
+  - "air roll left" gives =-= roll (left)
+  - "air roll right" gives =+= roll (right)
+
+From a neutral position (hovering in the air, nose up, tail down, top
+facing you), we can boost through various rotations to move the car's
+position while leaving its final orientation the same as its initial
+orientation. Boosting through any of these rotational control inputs
+provides consistent control as follows:
+
+| Roll | Pitch | Yaw | RESULT   |
+|------+-------+-----+----------|
+| -    | +     | 0   | RIGHT    |
+| -    | -     | 0   | LEFT     |
+| -    | 0     | +   | BACKWARD |
+| -    | 0     | -   | FORWARD  |
+
+The first row of the table can be read as the following: by starting
+from the neutral position and boosting while holding "air roll left",
+holding the left analog stick up, and not holding the stick left/right -
+all for one full rotation of the car - the car will have moved to the
+right and returned to the neutral position. Or more succinctly:
+
+- Roll (left/negative) + Pitch (up/positive) + Yaw (neutral) = rightward
+  motion
+
+***** Directional Air Roll Resources
+:PROPERTIES:
+:CUSTOM_ID: directional-air-roll-resources
+:END:
+****** Articles
+:PROPERTIES:
+:CUSTOM_ID: articles-1
+:END:
+- [[https://en.wikipedia.org/wiki/Aircraft_principal_axes][Wikipedia -
+  Aircraft principle axes]] ##### YouTube Tutorials
+- [[https://www.youtube.com/watch?v=ens6Bs5SVcs][Tipp Air Roll Left
+  Guide]]
+- [[https://www.youtube.com/watch?v=0_x2UQqQ2mY][Thanovic Air Roll
+  Control]]
+- [[https://www.youtube.com/watch?v=YDofLn_K3yE][SpookLuke Learn to Air
+  Roll]]
+
+--------------
+
+** Strategy
+:PROPERTIES:
+:CUSTOM_ID: strategy
+:END:
+*** Positioning
+:PROPERTIES:
+:CUSTOM_ID: positioning
+:END:
+**** Positioning Goal-side
+:PROPERTIES:
+:CUSTOM_ID: positioning-goal-side
+:END:
+**** Positioning Inside
+:PROPERTIES:
+:CUSTOM_ID: positioning-inside
+:END:
+**** Positioning Outside
+:PROPERTIES:
+:CUSTOM_ID: positioning-outside
+:END:
+*** Kickoffs
+:PROPERTIES:
+:CUSTOM_ID: kickoffs
+:END:
+The original, gold-standard for kick-off:
+https://www.youtube.com/watch?v=JFn3Ye90IKc If you can do this style of
+kickoff well, you will be doing better kickoffs than at least half of
+the playerbase.
+
+Here are two general guides for getting the basics of kickoffs: -
+winning the kickoff basics :
+https://www.gamersrdy.com/blog/2020/11/27/kickoffs-in-rocket-league-guide/ -
+getting there first and best :
+https://www.dailyesports.gg/rocket-league-kick-off-strategy-guide/
+
+**** Cheat-up
+:PROPERTIES:
+:CUSTOM_ID: cheat-up
+:END:
+This is where you grab a couple 12-pads and follow behind the first
+player to immediately follow up the kickoff 50/50.
+
+**** Dead-ball
+:PROPERTIES:
+:CUSTOM_ID: dead-ball
+:END:
+When the kickoff 50/50 results in the ball mostly staying in the center
+circle. The ball's momentum is "dead." Excellent opportunity for a
+teammate if they cheated up.
+
+*** Shadowing
+:PROPERTIES:
+:CUSTOM_ID: shadowing
+:END:
+**** Shadow Defense
+:PROPERTIES:
+:CUSTOM_ID: shadow-defense
+:END:
+*** Rotation
+:PROPERTIES:
+:CUSTOM_ID: rotation
+:END:
+**** Near-post Rotation
+:PROPERTIES:
+:CUSTOM_ID: near-post-rotation
+:END:
+**** Far-post Rotation
+:PROPERTIES:
+:CUSTOM_ID: far-post-rotation
+:END:
+**** Team Rotation
+:PROPERTIES:
+:CUSTOM_ID: team-rotation
+:END:
+***** 2v2
+:PROPERTIES:
+:CUSTOM_ID: v2
+:END:
+***** 3v3
+:PROPERTIES:
+:CUSTOM_ID: v3
+:END:
+- [[https://www.youtube.com/watch?v=v1KSnQmuigk][How to Attack in 3s]]
+
+--------------
+
+** Miscellaneous Tips
+:PROPERTIES:
+:CUSTOM_ID: miscellaneous-tips
+:END:
+These are poorly documented tips that I've either synthesized myself or
+have come directly from other (better) Rocket League players. I have not
+done well to attribute individual contributions here, and I apologize.
+Persons contributing include - but are not limited to - xHardDrive,
+Nekrosisx, PlantDaddyGaming, Rylak09, and Unknown.
+
+- don't give it to them
+- In game? unlucky. During review? mistake.
+- rotate backpost/backwall at kickoff
+- think about the way you turn (what are you covering?)
+- challenge the flip-reset early when it's at penalty box or closer
+- "fake far, go close"
+- don't be in the same offensive corner as your partner
+- pass laterally not in a straight line
+- if you're going to challenge a ball in a corner, dive for it and go
+  all-in.
+- powerslide-jump off backboard landings (or any surface)
+- use big circles to idle in good places
+- wavedash-flips - they're huge (for recoveries)
+- [[https://docs.google.com/spreadsheets/d/e/2PACX-1vSFVhOwmxwoefm8UuOivfEmryHMpoggqYSFI1t8FE25UMT9LaRmctl3T_2vukxMaiSRNSLtZPqrFfID/pubhtml][Turnup's
+  Rocket League Resources Spreadsheet]]
+- [[https://docs.google.com/spreadsheets/d/1RZebwwQHvXgPm_TodWLOHJbBihqXAYdfIZDEMG87Veo/edit#gid=0][RLCord
+  Custom Training Packs]]
+
+*** 1v1 Tips
+:PROPERTIES:
+:CUSTOM_ID: v1-tips
+:END:
+- take diagonal lines - don't go straight at the goal/goalie
+
+*** 2v2 Tips
+:PROPERTIES:
+:CUSTOM_ID: v2-tips
+:END:
+- keep momentum, don't stop yourself
+- don't throw the ball to them helpfully
+- don't get antsy and dive in to force a play
+- height makes right - at least make them waste boost
+- if he's in the air, don't be there
+- never go into the corner your teammate is in
+- If you think you need to hit (but only around 1st), 50 it instead
+- possession and aggression - have the ball, then aggress when they have
+  the ball. Make them /have/ to give it away.
+- first man only covers bad-hits and no-hits; second covers strong-hits
+  (zones)
+- shadow along wall all the way to your own corner
+- as last back: fake-challenge, buy time, save
+- don't push ball through corner uselessly (possession play through
+  corners; or bump!)
+
+*** 3v3 Tips
+:PROPERTIES:
+:CUSTOM_ID: v3-tips
+:END:
+- if you're first: dive, attack, commit, go; if you're last: shadow till
+  the ball is on the goal-line
+- gotta challenge
+- don't rotate ball-side
+- go under them, not over them (especially in your half)
+
+--------------
+
+** Settings
+:PROPERTIES:
+:CUSTOM_ID: settings
+:END:
+*** Gameplay
+:PROPERTIES:
+:CUSTOM_ID: gameplay
+:END:
+- Splitscreen Layout :: Vertical
+- Cross-platform Play :: TRUE
+- Client Send Rate :: High
+- Server Send Rate :: High
+- Bandwidth Limit :: High
+- Input Buffer :: STS
+- Show Competitive Divisions :: TRUE
+- Show Extra Mode Ranks :: TRUE
+- Game Stat Display Level :: Main Stats Only
+- Tournament Schedule Region :: US-West
+
+*** Camera
+:PROPERTIES:
+:CUSTOM_ID: camera
+:END:
+- Camera Preset :: Custom
+- Camera Shake :: FALSE
+- Field of View :: 109
+- Distance :: 260.00
+- Height :: 110.00
+- Angle :: -3.00
+- Stiffness :: 0.65
+- Swivel Speed :: 5.00
+- Transition Speed :: 1.50
+- Invert Swivel :: TRUE
+
+*** Controls
+:PROPERTIES:
+:CUSTOM_ID: controls
+:END:
+- Steering Sensitivity :: 1.24
+- Aerial Sensitivity :: 1.24
+- Controller Deadzone :: 0.10
+- Dodge Deadzone :: 0.10
+- Controller Vibration :: FALSE
+- Vibration Intensity :: 0.20
+- Ball Camera Mode :: Toggle
+- Mouse Sensitivity :: 10.00
+- Keyboard Input Acceleration Time :: 0.00
+- Keyboard Aerial Safety :: TRUE
+
+*** Interface
+:PROPERTIES:
+:CUSTOM_ID: interface
+:END:
+- Interface Scale :: 100%
+- Display Scale :: 100%
+- Nameplate Scale :: 150%
+- Nameplate Mode :: Default
+- Match Notifications :: All
+- Connection Quality Indicators :: TRUE
+- Color Blind Mode :: FALSE
+- Force Default Team Colors :: TRUE
+- Notifications During Gameplay :: TRUE
+- Team-colored Boost Meter :: TRUE
+- Metric :: FALSE
+- Ball Cam Indicator :: FALSE
+- Ball Arrow :: TRUE
+- Performance Graphs :: None
+- Convert Platform Friends :: FALSE
+- Allow Player-to-player Trading :: TRUE
+
+*** Video
+:PROPERTIES:
+:CUSTOM_ID: video
+:END:
+- Window Settings
+  - Resolution :: 1920 x 1080 16:9
+  - Display Mode :: Borderless
+  - Vertical Sync :: FALSE
+- Basic Settings
+  - Anti-aliasing :: FXAA High
+  - Render Quality :: High Quality
+  - Renderer Detail :: Custom
+  - Frames Per Second :: 250 (set by Bakkesmod Plugin 'FPS cap')
+- Advanced Settings
+  - Texture Detail :: High Quality
+  - World Detail :: Quality
+  - Particle Detail :: Performance
+  - Effect Intensity :: Low Intensity
+  - High Quality Shaders :: TRUE
+  - Ambient Occlusion :: FALSE
+  - Depth of Field :: FALSE
+  - Bloom :: FALSE
+  - Light Shafts :: FALSE
+  - Lens Flares :: FALSE
+  - Dynamic Shadows :: FALSE
+  - Motion Blur :: FALSE
+  - Weather Effects :: FALSE
+  - Transparent Goalposts :: TRUE
+
+*** Audio
+:PROPERTIES:
+:CUSTOM_ID: audio
+:END:
+- Master :: 100%
+- Gameplay :: 75%
+- Music - Playlists :: 75%
+- Music - Gameplay :: 75%
+- Voice Chat :: 50%
+- Ambient :: 75%
+- Crowd :: 75%
+- Output Type :: Speakers
+- Dynamic Range :: Default
+- Play Soundtrack in Menu :: FALSE
+- Play Soundtrack in Training :: FALSE
+- Play Soundtrack in Game :: FALSE
+- Player Anthems :: Matches Only
+- Streamer Safe Music :: TRUE
+- Mute on Unfocused :: FALSE
+
+*** Chat
+:PROPERTIES:
+:CUSTOM_ID: chat
+:END:
+- Text and Quick Chat Settings
+  - Block Non-tactical Quick Chat :: FALSE
+- Voice Chat Settings
+  - Voice Chat :: Allow Voice Chat with Nobody (Off)
+
+--------------
+
+** References
+:PROPERTIES:
+:CUSTOM_ID: references
+:END:
+Miscellaneous references listed in something like alphabetical order: -
+[[https://steamcommunity.com/id/0xDigby/myworkshopfiles/?appid=252950][0xDigby
+Steam Workshop Page]] -
+[[https://steamcommunity.com/id/dmc8217/myworkshopfiles/?appid=252950][dmc
+Steam Workshop Page]] -
+[[https://steamcommunity.com/id/futcha/myworkshopfiles/?appid=252950][French
+Fries Steam Workshop Page]] -
+[[https://steamcommunity.com/profiles/76561198085868465/myworkshopfiles/?appid=252950][Lethamyr
+Steam Workshop Page]] -
+[[https://www.youtube.com/user/LinkinBoyTV][Linkuru YouTube Channel]] -
+[[https://www.youtube.com/channel/UC1GFqqHIBaiCW1ivJJCFTvg][aMustyCow
+YouTube Channel]] - [[https://www.rocketleague-help.com/][Rocket League
+Help]] -
+[[https://www.youtube.com/channel/UCfKidiMlHTBRNkQZlLzUesw][Rocket
+Science YouTube Channel]] -
+[[https://www.youtube.com/channel/UCfzjoVrSU7K5zUR4FaBLx3A][SpookLuke
+YouTube Channel]] -
+[[https://www.youtube.com/channel/UC1JPEwMqLaI96qRUKNp3_ow][SquishyMuffinz
+YouTube Channel]] -
+[[https://www.youtube.com/channel/UCocHtA1ADT6kTObipYzJoww][SunlessKhan
+YouTube Channel]] -
+[[https://www.youtube.com/channel/UCd1A9A5JGDtLxCrc59yHncg][Thanovic
+YouTube Channel]] -
+[[https://www.youtube.com/channel/UCEdoRRgCd9DIksjCfgYCwxg][Tipp YouTube
+Channel]] -
+[[https://www.reddit.com/r/RocketLeague/comments/5jrvim/fast_kickoff_training_sequence/][VaporGB
+on Reddit]] -
+[[https://www.youtube.com/channel/UCWDuIMQM0wF-WHJINS8vwRA][Virge
+YouTube Channel]] -
+[[https://www.youtube.com/channel/UCeg2dFpnarFPI14hbN_5rKg][Wayton
+Pilkin YouTube Channel]]
+
+--------------
+
+--------------
+
+Old paste addresses: 1.
+https://paste.0xfc.de/?dccca0bb17ebd79f#E85ubSnbHQzpaScfhtLq95BHpHxRsMeZbN2EL2tqM7fP
+** End Matter
+#+print_bibliography:

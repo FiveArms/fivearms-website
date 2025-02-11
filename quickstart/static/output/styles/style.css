@@ -1,0 +1,232 @@
+main #statical-calendar.calendar div {
+  flex: unset;
+}
+
+#statical-calendar.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#statical-calendar.calendar h1 {
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0.6em;
+}
+#statical-calendar.calendar .header {
+  padding: 0.5em;
+  margin: 0;
+}
+#statical-calendar.calendar .pagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  line-height: initial;
+}
+#statical-calendar.calendar .pagination :any-link {
+  text-decoration: none;
+}
+#statical-calendar.calendar .pagination .views, #statical-calendar.calendar .pagination .previous, #statical-calendar.calendar .pagination .next {
+  border-radius: 0.5rem;
+  background-color: #eee;
+  padding: 0.35em 0;
+}
+#statical-calendar.calendar .pagination .previous, #statical-calendar.calendar .pagination .next {
+  width: 14.2857142857%;
+  text-align: center;
+}
+#statical-calendar.calendar .pagination .views ul {
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  font-size: revert;
+}
+#statical-calendar.calendar .pagination .views ul li {
+  display: inline;
+  padding: 0.35em 1em;
+  margin: 0;
+}
+#statical-calendar.calendar .pagination .views ul li.active {
+  background-color: grey;
+  border-radius: 0.5rem;
+}
+#statical-calendar.calendar div.event {
+  background-color: #eee;
+  padding: 0;
+  border-radius: 1em;
+  margin: 0.5em;
+  overflow: hidden;
+}
+#statical-calendar.calendar div.event :any-link {
+  color: unset;
+  text-decoration: none;
+}
+#statical-calendar.calendar div.event .summary {
+  font-weight: bold;
+}
+#statical-calendar.calendar div.event .body .content {
+  padding: 0.5em;
+}
+#statical-calendar.calendar div.event p {
+  margin: 1em 0;
+}
+#statical-calendar.calendar div.event p:first-child {
+  margin-top: 0;
+}
+#statical-calendar.calendar div.event p:last-child {
+  margin-bottom: 0;
+}
+#statical-calendar.calendar div.event div.header {
+  background-color: grey;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin-bottom: 0;
+}
+#statical-calendar.calendar div.event div.header .time, #statical-calendar.calendar div.event div.header .duration {
+  white-space: nowrap;
+}
+#statical-calendar.calendar div.event .header > p {
+  margin: 0;
+}
+#statical-calendar.calendar > div.day,
+#statical-calendar.calendar > div.agenda,
+#statical-calendar.calendar > div.event {
+  max-width: 600px;
+}
+#statical-calendar.calendar > div.day > a > p.header,
+#statical-calendar.calendar > div.agenda > a > p.header,
+#statical-calendar.calendar > div.event > a > p.header {
+  font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#statical-calendar.calendar > div.event {
+  padding: 0;
+  background-color: white;
+}
+#statical-calendar.calendar > div.week,
+#statical-calendar.calendar > div.month {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 14.2857142857%);
+}
+#statical-calendar.calendar > div.week div.day,
+#statical-calendar.calendar > div.month div.day {
+  background-color: white;
+  padding: 0.1em;
+}
+#statical-calendar.calendar > div.week div.day img,
+#statical-calendar.calendar > div.month div.day img {
+  max-width: 100%;
+}
+#statical-calendar.calendar > div.week div.day.weekend, #statical-calendar.calendar > div.week div.day.other-month,
+#statical-calendar.calendar > div.month div.day.weekend,
+#statical-calendar.calendar > div.month div.day.other-month {
+  background-color: #ddd;
+}
+#statical-calendar.calendar > div.week div.day > a > div.header,
+#statical-calendar.calendar > div.month div.day > a > div.header {
+  display: flex;
+  justify-content: space-between;
+}
+#statical-calendar.calendar > div.week div.day > a > div.header p.date,
+#statical-calendar.calendar > div.month div.day > a > div.header p.date {
+  white-space: nowrap;
+  text-align: right;
+}
+#statical-calendar.calendar div.week {
+  grid-auto-rows: 2;
+}
+#statical-calendar.calendar div.week > .day > p.header {
+  display: flex;
+  justify-content: space-between;
+}
+#statical-calendar.calendar div.week .day {
+  border: 0.5px solid lightgrey;
+}
+#statical-calendar.calendar div.week .day p {
+  margin: 0.25em;
+}
+#statical-calendar.calendar div.week .weekend {
+  border-top: 0.5px solid grey;
+}
+#statical-calendar.calendar div.week .weekend.first-week {
+  border-top: unset;
+}
+#statical-calendar.calendar div.week .weekend.Sun {
+  border-right: 0.5px solid grey;
+}
+#statical-calendar.calendar div.week .weekend.Sat {
+  border-left: 0.5px solid grey;
+}
+#statical-calendar.calendar div.month {
+  grid-auto-rows: repeat(6, minmax(6em, auto));
+}
+#statical-calendar.calendar div.month > .header {
+  font-weight: bold;
+  text-align: center;
+}
+#statical-calendar.calendar div.month .wday.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid grey;
+}
+#statical-calendar.calendar div.month .day {
+  border: 0.5px solid lightgrey;
+}
+#statical-calendar.calendar div.month .day p {
+  margin: 0.25em;
+}
+#statical-calendar.calendar div.month .weekend {
+  border-top: 0.5px solid grey;
+}
+#statical-calendar.calendar div.month .weekend.first-week {
+  border-top: unset;
+}
+#statical-calendar.calendar div.month .weekend.Sun {
+  border-right: 0.5px solid grey;
+}
+#statical-calendar.calendar div.month .weekend.Sat {
+  border-left: 0.5px solid grey;
+}
+#statical-calendar.calendar div.month div.event .body {
+  visibility: hidden;
+  max-height: 0;
+  transition: all 1s ease;
+}
+#statical-calendar.calendar div.month div.event .body:hover {
+  visibility: visible;
+  max-height: 100vh;
+}
+#statical-calendar.calendar div.month .header:hover + .body {
+  visibility: visible;
+  max-height: 100vh;
+}
+#statical-calendar.calendar div.month input#expand-events, #statical-calendar.calendar div.month label.expand-events {
+  grid-row-start: 1;
+  grid-column-end: 7;
+  position: relative;
+  top: 10px;
+  height: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+}
+#statical-calendar.calendar div.month input#expand-events {
+  left: 6vw;
+  grid-column-start: 7;
+}
+#statical-calendar.calendar div.month label.expand-events {
+  left: 13vw;
+  grid-column-start: 1;
+  text-align: right;
+}
+#statical-calendar.calendar input#expand-events:checked ~ .day .events .event .body {
+  visibility: visible;
+  max-height: 100vh;
+}
