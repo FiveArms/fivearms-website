@@ -1,7 +1,7 @@
 +++
 title = "FiveArms Training"
 author = ["FiveArms"]
-lastmod = 2025-02-10T21:04:19-07:00
+lastmod = 2025-02-11T21:15:48-07:00
 draft = true
 +++
 
@@ -17,66 +17,148 @@ This document is intended to be a resource open to anyone looking to improve in 
 
 <!--more-->
 
+Mechanics are any named, repeatable action that a player can take in the game. Dribbling the ball and wavedashing are both mechanics. Some mechanics involve the ball, and others do not.
 
-## Getting up and running in RL {#getting-up-and-running-in-rl}
+Given this, I attempt to break down the game into mechanics (what you can do with the car or car &amp; ball), and strategy (how you should use your car to win the game).
 
-So you want to start playing Rocket League? Start with these exercises, and you'll be well on your way!
+I also provide some instruction for basic training that works on many skills at once. If you are familiar with weight training, individual mechanics can be likened to machine-training that isolates muscles, whereas these training exercises are more like free weight exercises - compound exercises that involve many muscle groups.
+
+<div class="ox-hugo-toc toc">
+
+<div class="heading">Table of Contents</div>
+
+- [Car Control](#car-control)
+    - [Accelerate](#accelerate)
+    - [Rotate](#rotate)
+    - [Jump](#jump)
+    - [Dodge (Flip)](#dodge--flip)
+- [Training Exercises](#training-exercises)
+    - [Musty Sidewall Exercise](#musty-sidewall-exercise)
+    - [Vaporwave Flip and Speedflip Exercises](#vaporwave-flip-and-speedflip-exercises)
+    - [Salteroo Air Dribble Exercise](#salteroo-air-dribble-exercise)
+    - [Craigthemicrowave Wall to Air Exercises](#craigthemicrowave-wall-to-air-exercises)
+- [Mechanic](#mechanic)
+    - [Dribble](#dribble)
+    - [Half-Flip](#half-flip)
+    - [Flick](#flick)
+    - [Speedflip](#speedflip)
+    - [Wavedash](#wavedash)
+    - [Fast Aerial (Quick Aerial)](#fast-aerial--quick-aerial)
+- [Strategy](#strategy)
+- [Mechanics](#mechanics)
+    - [Dribbling](#dribbling)
+    - [Flicks](#flicks)
+    - [Wavedash](#wavedash)
+    - [Speedflip](#speedflip)
+    - [Walldash](#walldash)
+    - [Aerials](#aerials)
+- [Strategy](#strategy)
+    - [Positioning](#positioning)
+    - [Kickoffs](#kickoffs)
+    - [Shadowing](#shadowing)
+    - [Rotation](#rotation)
+- [Miscellaneous Tips](#miscellaneous-tips)
+    - [1v1 Tips](#v1-tips)
+    - [2v2 Tips](#v2-tips)
+    - [3v3 Tips](#v3-tips)
+- [Settings](#settings)
+    - [Gameplay](#gameplay)
+    - [Camera](#camera)
+    - [Controls](#controls)
+    - [Interface](#interface)
+    - [Video](#video)
+    - [Audio](#audio)
+    - [Chat](#chat)
+- [References](#references)
+- [End Matter](#end-matter)
+
+</div>
+<!--endtoc-->
 
 
-### <span class="org-todo todo IDEA">IDEA</span> Rocket League Mechanics Tutorial {#rocket-league-mechanics-tutorial}
-
--   musty sidewall
--   vaporwave/speedflip
--   salteroo air dribble
--   craig's microwave wall to air
--   so on
+## Car Control {#car-control}
 
 
-## Citation Attempts {#citation-attempts}
+### Accelerate {#accelerate}
 
-hello there, Kenobi
-Workshop? (<a href="#citeproc_bib_item_2">org et al. 2021</a>)
-(<a href="#citeproc_bib_item_1">dmc 2019</a>)
-
-Go to [Noob Dribble](https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064) (<a href="#citeproc_bib_item_1">dmc 2019</a>)
+Accelerate the car by using the accelerate button. While on the ground, this will move the car forward at an increasing pace. In the air, this also moves the car forward a very small amount. REFERENCE The car can also be accelerated by [dodging](#dodge--flip) and [boosting](#boost). The car has a maximum speed. When approaching maximum speed, the car will reach a threshold just below maximum speed and above this threshold, the car is said to be "supersonic." When a car is supersonic it will have a trail and it will be moving fast enough to "demo" or demolish another car.
 
 
-## FiveArms Training {#fivearms-training}
-
-I want to improve in Rocket League, and given my current skills, rank,
-available time, and desire to rank up, I think I should focus on just a
-few mechanics at a time. I am currently focusing on: -
-[Flicks](#flicks) - [Speedflipping](#speedflip) -
-[Directional Air Roll](#directional-air-roll)
-
-This document is intended to be a resource open to anyone looking to
-improve in Rocket League, but is guided by my personal understanding,
-training, and goals. I hope this record of my own quest for
-self-betterment can offer something useful to you in your own journey.
-
-“"May the boost be with you." ~ Yoda, probably” ~ FiveArms (2021)
-
----
+#### Boost {#boost}
 
 
-## Table of Contents {#table-of-contents}
+### Rotate {#rotate}
 
--   [Mechanics](#mechanics)
-    -   [Dribbling](#dribbling)
-    -   [Flicks](#flicks)
-    -   [Wavedash](#wavedash)
-        -   [Curvedash](#curvedash)
-        -   [Landing Wavedash](#landing-wavedash)
-    -   [Speedflip](#speedflip)
-    -   [Walldash](#walldash)
-    -   [Aerials](#aerials)
-        -   [Fast Aerials](#fast-aerials)
-        -   [Aerial Control](#aerial-control)
-        -   [Directional Air Roll](#directional-air-roll)
--   [Strategy](#strategy)
--   [Miscellaneous Tips](#miscellaneous-tips)
--   [Settings](#settings)
--   [People and Works Referenced](#references)
+
+#### Grounded Rotation {#grounded-rotation}
+
+<!--list-separator-->
+
+-  Powerslide
+
+
+#### Aerial Rotation {#aerial-rotation}
+
+<!--list-separator-->
+
+-  Directional Air Roll
+
+
+### Jump {#jump}
+
+
+### Dodge (Flip) {#dodge--flip}
+
+
+#### Flip Reset {#flip-reset}
+
+
+## Training Exercises {#training-exercises}
+
+
+### Musty Sidewall Exercise {#musty-sidewall-exercise}
+
+
+### Vaporwave Flip and Speedflip Exercises {#vaporwave-flip-and-speedflip-exercises}
+
+
+### Salteroo Air Dribble Exercise {#salteroo-air-dribble-exercise}
+
+
+### Craigthemicrowave Wall to Air Exercises {#craigthemicrowave-wall-to-air-exercises}
+
+
+## Mechanic {#mechanic}
+
+
+### Dribble {#dribble}
+
+
+### Half-Flip {#half-flip}
+
+
+### Flick {#flick}
+
+
+### Speedflip {#speedflip}
+
+
+### Wavedash {#wavedash}
+
+
+#### Landing Wavedash {#landing-wavedash}
+
+
+#### Curvedash {#curvedash}
+
+
+#### Walldash {#walldash}
+
+
+### Fast Aerial (Quick Aerial) {#fast-aerial--quick-aerial}
+
+
+## Strategy {#strategy}
 
 ---
 
@@ -976,6 +1058,4 @@ Old paste addresses: 1.
 ## References
 
 <style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
-  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>dmc. 2019. “Noob Dribble - by Dmc.” Steam. August 24, 2019. <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064">https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064</a>.</div>
-  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>org, mode, Citation Syntax, Mailing List, and Time Effort. 2021. “Elegant Citations with Org-Mode.” <i>Journal of Plain Text Formats</i> 42 (1): 2–3.</div>
 </div>

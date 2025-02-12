@@ -29,7 +29,8 @@ Let's see what else there is to do. Then let's try building a page for personal 
 
 Where are the paragraphs?
 
-* TODO Third post                                             :@rocketleague:
+* DONE Third post                                             :@rocketleague:
+CLOSED: [2025-02-11 Tue 19:51]
 :PROPERTIES:
 :EXPORT_FILE_NAME: third-post
 :END:
@@ -179,61 +180,79 @@ This document is intended to be a resource open to anyone looking to improve in 
 ""May the boost be with you." ~ Yoda, probably" ~ FiveArms (2021)
 
 #+hugo: more
-** Getting up and running in RL
-So you want to start playing Rocket League? Start with these exercises, and you'll be well on your way!
-*** IDEA Rocket League Mechanics Tutorial
-- musty sidewall
-- vaporwave/speedflip
-- salteroo air dribble
-- craig's microwave wall to air
-- so on
-** Citation Attempts
-hello there, Kenobi
-Workshop? [cite:@OrgCitations]
-[cite:@noobdribble19]
 
-Go to [[https://steamcommunity.com/sharedfiles/filedetails/?id=1843822064][Noob Dribble]] [cite:@noobdribble19]
-** FiveArms Training
+Mechanics are any named, repeatable action that a player can take in the game. Dribbling the ball and wavedashing are both mechanics. Some mechanics involve the ball, and others do not.
+
+Given this, I attempt to break down the game into mechanics (what you can do with the car or car & ball), and strategy (how you should use your car to win the game).
+
+I also provide some instruction for basic training that works on many skills at once. If you are familiar with weight training, individual mechanics can be likened to machine-training that isolates muscles, whereas these training exercises are more like free weight exercises - compound exercises that involve many muscle groups.
+
+#+toc: headlines 2
+
+** Car Control
+*** Accelerate
+Accelerate the car by using the accelerate button. While on the ground, this will move the car forward at an increasing pace. In the air, this also moves the car forward a very small amount. REFERENCE The car can also be accelerated by [[id:a5d2daed-f960-47ac-b1c5-4caaa5c877b7][dodging]] and [[id:047739dd-c41f-4ec5-a7f6-9dd03bca4b91][boosting]]. The car has a maximum speed. When approaching maximum speed, the car will reach a threshold just below maximum speed and above this threshold, the car is said to be "supersonic." When a car is supersonic it will have a trail and it will be moving fast enough to "demo" or demolish another car.
+**** Boost
 :PROPERTIES:
-:CUSTOM_ID: fivearms-training
+:ID:       047739dd-c41f-4ec5-a7f6-9dd03bca4b91
 :END:
-I want to improve in Rocket League, and given my current skills, rank,
-available time, and desire to rank up, I think I should focus on just a
-few mechanics at a time. I am currently focusing on: -
-[[#flicks][Flicks]] - [[#speedflip][Speedflipping]] -
-[[#directional-air-roll][Directional Air Roll]]
-
-This document is intended to be a resource open to anyone looking to
-improve in Rocket League, but is guided by my personal understanding,
-training, and goals. I hope this record of my own quest for
-self-betterment can offer something useful to you in your own journey.
-
-“"May the boost be with you." ~ Yoda, probably” ~ FiveArms (2021)
-
---------------
-
-** Table of Contents
+*** Rotate
+**** Grounded Rotation
+***** Powerslide
+**** Aerial Rotation
+***** Directional Air Roll
+*** Jump
+*** Dodge (Flip)
 :PROPERTIES:
-:CUSTOM_ID: table-of-contents
+:ID:       a5d2daed-f960-47ac-b1c5-4caaa5c877b7
 :END:
-- [[#mechanics][Mechanics]]
-  - [[#dribbling][Dribbling]]
-  - [[#flicks][Flicks]]
-  - [[#wavedash][Wavedash]]
-    - [[#curvedash][Curvedash]]
-    - [[#landing-wavedash][Landing Wavedash]]
-  - [[#speedflip][Speedflip]]
-  - [[#walldash][Walldash]]
-  - [[#aerials][Aerials]]
-    - [[#fast-aerials][Fast Aerials]]
-    - [[#aerial-control][Aerial Control]]
-    - [[#directional-air-roll][Directional Air Roll]]
-- [[#strategy][Strategy]]
-- [[#miscellaneous-tips][Miscellaneous Tips]]
-- [[#settings][Settings]]
-- [[#references][People and Works Referenced]]
+**** Flip Reset
+** Training Exercises
+*** Musty Sidewall Exercise
+*** Vaporwave Flip and Speedflip Exercises
+*** Salteroo Air Dribble Exercise
+*** Craigthemicrowave Wall to Air Exercises
+** Mechanic
+:PROPERTIES:
+:ID:       4b9fc014-3cbe-4529-85e3-94266646c543
+:END:
+:LOGBOOK:
+- Note taken on [2025-02-11 Tue 20:46] \\
+  While it is difficult to subdivide the knowledge and skills that go into playing Rocket League, I like the way that SunlessKhan [cite:@sunlesskhan92] once explained it. There are basically two trees of knowledge that reinforce one another: controlling your car, and controlling the ball. Because you control the ball through controlling your car, the skills used in controlling your car will be used when controlling the ball. Not all skills are immediately obvious in the way that they connect, but combining quick aerials (car control) with dribbling (ball control) can lead to mechanics like ground to air dribbling. In addition to the two basic categories, there is the meta game or general strategies that are also used to help win by yourself (e.g. kickoff styles like "pushing"), and strategies that can help in a team setting (e.g. rotations).
+:END:
+*** Dribble
+:PROPERTIES:
+:ID:       06604be6-d20f-4695-a5bb-76816c4fa34f
+:END:
+:LOGBOOK:
+- Note taken on [2025-02-11 Tue 20:47] \\
+  Dribbling is the epitome of ball control. If you go into freeplay and try to hit the ball and then make a second hit as quickly as possible, after a while you start trying to /constantly/ hit the ball. That's basically dribbling. Always touching/hitting the ball.
 
---------------
+  This level of ball control is required for many other mechanics like [[id:823f566c-847f-4a01-b0c4-27bb656a8d3d][flicking]] and air-dribbling. The earlier you can start dribbling, the better.
+:END:
+*** Half-Flip
+*** Flick
+:PROPERTIES:
+:ID:       823f566c-847f-4a01-b0c4-27bb656a8d3d
+:END:
+*** Speedflip
+:PROPERTIES:
+:ID:       8b8be297-2bbf-4ac3-ae68-fed0bf65c844
+:END:
+*** Wavedash
+:PROPERTIES:
+:ID:       4b402a41-8b1c-4ec3-bcfb-714feaf6b196
+:END:
+**** Landing Wavedash
+**** Curvedash
+**** Walldash
+*** Fast Aerial (Quick Aerial)
+** Strategy
+:PROPERTIES:
+:ID:       b1ce38c9-8696-4adc-b731-81ac445bbd54
+:END:
+
+------------------------------------------------------------------------
 
 ** Mechanics
 :PROPERTIES:
