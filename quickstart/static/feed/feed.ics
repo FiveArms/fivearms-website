@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ICALENDAR-RS
+CALSCALE:GREGORIAN
+NAME:statical feed
+X-WR-CALNAME:statical feed
+DESCRIPTION:a concatenation of all of the calendars provided to statical
+X-WR-CALDESC:a concatenation of all of the calendars provided to statical
+TIMEZONE-ID:Africa/Lome
+X-WR-TIMEZONE:Africa/Lome
+METHOD:PUBLISH
+END:VCALENDAR
