@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Event View</title>
+  </head>
+
+  <body>
+    <main>
+<div id="statical-calendar" class="calendar">
+  <h1>Event Monday, January 27, 2025</h1>
+  <div class="pagination">
+  <div class="previous"><a href="&#x2F;event&#x2F;2025-01-25-Surprise_PDG_2s_Grind_Sesh_schedule.html">&lt; Previous</a></div>
+  <div class="views">
+  <ul>
+    <li ><a href="&#x2F;month">Month</a></li>
+    <li ><a href="&#x2F;week">Week</a></li>
+    <li ><a href="&#x2F;day">Day</a></li>
+    <li class="active"><a href="&#x2F;event">Event</a></li>
+    <li ><a href="&#x2F;agenda">Agenda</a></li>
+    <li><a href="&#x2F;feed">Calendar Feed</a></li>
+  </ul>
+</div>
+
+  <div class="next"><a href="&#x2F;event&#x2F;2025-01-27-Hollow_Knight.html">Next &gt;</a></div>
+</div>
+
+  <div class="event">
+    <p class="header">
+      <span class="date">January 27, 2025</span>
+    </p>
+    <div class="event mycal">
+  <div class="header" style="background-color: #00ffff;">
+    <a href="&#x2F;event&#x2F;2025-01-27-HK_RL_schedule_2v2_w_PlantDaddyGaming.html">
+      <p class="times-info"><span class="time">09:50am - 03:00pm</span> <span class="duration">(5 hours and 10 minutes)</span></p>
+      <p class="summary">HK &amp; RL | !schedule | 2v2 w&#x2F; @PlantDaddyGaming</p>
+    </a>
+  </div>
+  <div class="body">
+    <a href="">
+      <div class="content">
+        <p class="description"><2025-01-27 Mon 09:50-15:00><br>pdg-2v2-tracker source<br>      <https://tracker.gg/overlays/overlay/68609077-e484-4ec7-bae0-6e2692cb737d><br>pdg-2v2-tracker editor<br>      <https://tracker.gg/overlays/editor/68609077-e484-4ec7-bae0-6e2692cb737d><br>fivearms-2v2-tracker source<br>      <https://tracker.gg/overlays/overlay/c02ea716-9cb6-4804-80e4-a3aea48857da><br>fivearms-2v2-tracker editor<br>      <https://tracker.gg/overlays/editor/c02ea716-9cb6-4804-80e4-a3aea48857da><br>┌────<br>│ # MMR Tracker for OBS<br>│ We need something to reference when the state of Rocket League changes. Once we havethat, we just use the built in `txt-trigger.lua` script to turn on a source's visibility based on our reference.<br>│<br>│ ## RocketStats Plugin for Reference Value<br>│ Install the RocketStats plugin for bakkesmod. Available as plugin `30` or here: https://bakkesplugins.com/plugins/view/30 . This plugin will generate and maintain text files that we will reference later.<br>│<br>│ ### Finding Reference Value<br>│ The text file we will use is `RocketStats_BoostState.txt` and is located in the path `C:\Users\kyle\AppData\Roaming\bakkesmod\bakkesmod\data\RocketStats`. In order to find your `AppData` folder, open a windows file explorer window, click in the address bar, and type in `%appdata%`. After hitting enter, you should be in your `AppData\Roaming` folder. The text file has the contents `-1` when in the main menu, and `0` when controlling the car (in game or training). This means that we can match to either `-1` or `0` depending on if we wanta source visible in the menu, or in games.<br>│<br>│ ## Creating the Tracker<br>│ Either go to https://tracker.gg/overlays to create your own overlay, or feel free to use the ones I created:<br>│<br>│ - pdg-2v2-tracker source :: https://tracker.gg/overlays/overlay/68609077-e484-4ec7-bae0-6e2692cb737d<br>│ - pdg-2v2-tracker editor :: https://tracker.gg/overlays/editor/68609077-e484-4ec7-bae0-6e2692cb737d<br>│ - fivearms-2v2-tracker source :: https://tracker.gg/overlays/overlay/c02ea716-9cb6-4804-80e4-a3aea48857da<br>│ - fivearms-2v2-tracker editor :: https://tracker.gg/overlays/editor/c02ea716-9cb6-4804-80e4-a3aea48857da<br>│<br>│ Note that by making your browser source for this tracker in OBS have width x height of 290 x 90 should crop down to just the tracking information.<br>│<br>│ ## Putting it Together in OBS<br>│ Here weneed to:<br>│ 1. Insert the sources we care about as **top-level sources** (no nesting them in folders or groups!).<br>│ 2. Create a copy of the `txt-trigger.lua` script for us to use.<br>│ 3. Customize our script in OBS<br>│<br>│ ### Add Sources in OBS<br>│ In the scene that you want to use, add the sources (trackers, labels, etc.) as top-level sources. (**No source groups!**)<br>│<br>│ ### Create a Copy of the Script<br>│ Make sure to close OBS completely, then navigate to `C:\Program Files\obs-studio\data\obs-plugins\frontend-tools\scripts` in a windows file explorer window. There, you should see a file `txt-trigger.lua`. Simply copy and paste the file to make a duplicate of it. You may need to agree to elevating your permissions to edit files in this directory. Name the copy whatever you like, I suggest `txt-trigger-tracker.lua`.<br>│<br>│ ### Customize the Script in OBS<br>│ LaunchOBS. In the top menu bar, choose `Tools` then `Scripts` from the drop-down. Below the `Loaded Scripts` window, you should see a `+` button. Clickthe `+` button to add the duplicate script you made previously. Now that it is listed in the `Loaded Scripts` window, click on it and we will change its settings. To the right, you should see settings like `File to check`, `Trigger check period`, etc.<br>│<br>│ - File to check :: click `Browse`, then type `%appdata` in the address bar, then navigate to `bakkesmod\bakkesmod\data\RocketStats\`, then select the file `RocketStats_BoostState.txt`<br>│ - Trigger check period :: 1000 (This is how often the file ischecked by the script, and I think checking every second is plenty often.)<br>│ - Trigger on any change in the file contents :: **NO** check<br>│ - Trigger when file contents match pattern :: `^-1` (This is a regular expression pattern that says, "match when the first characters are `-1`". Check how regex patterns work at https://regex101.com .)<br>│ - Make source(s) visible for as long as file contents match :: **YES** check<br>│ - Source visibility duration :: not applicable<br>│ - Source visibility delay :: 0<br>│ - Source 1 (2, or 3) :: select your tracker, label or other source<br>│ - Affect all scenes :: **NO** check<br>│ - Only affect scene :: select your RocketLeague scene<br>│<br>│ # Enjoy!<br>│ At this point, your tracker should be visible when in Rocket League menus, and not visible when in game. Enjoy having an automatically toggling tracker!<br>│<br>│ If you wanted to have, say,your controller overlay work the same way, but be visible at opposite times, simply repeat this process, but change the matching pattern for thescript from `-1` to `^[0-9]` (matching any time the first character of the file is a digit 0-9).<br>└────</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  </div>
+  <div class="pagination">
+    <div class="previous"><a href="&#x2F;event&#x2F;2025-01-25-Surprise_PDG_2s_Grind_Sesh_schedule.html">&lt; Previous</a></div>
+    <div class="next"><a href="&#x2F;event&#x2F;2025-01-27-Hollow_Knight.html">Next &gt;</a></div>
+</div>
+
+</div>
+</main>
+  </body>
+</html>
