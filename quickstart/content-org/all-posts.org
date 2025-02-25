@@ -166,7 +166,8 @@ Stuck with Dacia and made it all the way to the very end of the very last level!
 + Twitch Link :: https://www.twitch.tv/videos/1670773058
 
 Finally beat all levels! Now we just need to get a more reasonable time.
-* TODO FiveArms Training
+* DONE FiveArms Training
+CLOSED: [2025-02-24 Mon 19:22]
 :PROPERTIES:
 :EXPORT_FILE_NAME:  fivearms-training
 :END:
@@ -1077,7 +1078,8 @@ https://paste.0xfc.de/?dccca0bb17ebd79f#E85ubSnbHQzpaScfhtLq95BHpHxRsMeZbN2EL2tq
 #+print_bibliography:
 * TODO Stream Recaps
 
-* TODO Daily Drive [2025-02-24 Mon] :@rocketleague:@ninesols:wheredoibelong:plantbabygaming:
+* DONE Daily Drive [2025-02-24 Mon] :@rocketleague:@ninesols:wheredoibelong:plantbabygaming:
+CLOSED: [2025-02-24 Mon 19:22]
 :PROPERTIES:
 :EXPORT_FILE_NAME: daily-drive-2025-02-24-mon
 :END:

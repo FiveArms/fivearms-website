@@ -1,8 +1,9 @@
 +++
 title = "FiveArms Training"
 author = ["FiveArms"]
-lastmod = 2025-02-11T21:15:48-07:00
-draft = true
+date = 2025-02-24T19:22:00-07:00
+lastmod = 2025-02-24T19:22:40-07:00
+draft = false
 +++
 
 I want to improve in Rocket League, and given my current skills, rank, available time, and desire to rank up, I think I should focus on just a few mechanics at a time. I am currently focusing on:

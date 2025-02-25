@@ -1,10 +1,11 @@
 +++
 title = "Daily Drive [2025-02-24 Mon]"
 author = ["FiveArms"]
-lastmod = 2025-02-24T15:45:52-07:00
+date = 2025-02-24T19:22:00-07:00
+lastmod = 2025-02-24T19:22:37-07:00
 tags = ["wheredoibelong", "plantbabygaming"]
 categories = ["rocketleague", "ninesols"]
-draft = true
+draft = false
 +++
 
 Overall, today was a good day. I didn't start stream on time, but that's just personal life stuff getting in the way. We'll do better with that over time. I was very proud of my solo-queuing, and I think I did as well as I could when playing with Plant.
