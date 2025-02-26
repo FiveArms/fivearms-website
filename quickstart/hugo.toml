@@ -8,3 +8,28 @@ title = 'My New Hugo Site'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[menu]
+  [[menu.main]]
+  identifier = "categories"
+  name = "categories"
+  url = "/categories/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "tags"
+  name = "tags"
+  url = "/tags/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "calendar"
+  name = "schedule"
+  url = "/cal/"
+  weight = 30
+
+  [[menu.main]]
+  identifier = "five-example"
+  name = "fivearms.netlify.app"
+  url = "/"
+  weight = 40
