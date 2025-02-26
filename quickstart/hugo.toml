@@ -1,6 +1,6 @@
 baseURL = 'https://fivearms.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'FiveArms'
 
 [module]
   [[module.imports]]
